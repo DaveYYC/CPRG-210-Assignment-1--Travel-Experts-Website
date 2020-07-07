@@ -1,26 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
+/* -- Layout Section -- */
 * {
     margin: 0;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.wrapper {
+    height: 100vh;
+    margin: auto;
+}
+
 body {
     line-height: 1.2;
     letter-spacing: 5px;
-
+  
     background-color: rgba(122, 109, 105, 0.322); 
 }
 
-/* -- Navigation bar / Header -- */
+/* -- Navigation Bar / Header -- */
+
 nav {
     display: flex;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
@@ -35,6 +44,8 @@ nav {
 }
 
 nav ul li {
+    font-size: 20px;
+    padding-bottom: 1px;
     list-style: none;
 }
 
@@ -58,62 +69,58 @@ nav a:active {
 /* -- Login Form -- */
 
 .login {
+    height: 70vh;
+
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 form {
-    width: 400px;
-    margin-top: 50px;
-    margin-bottom: 250px;
+    width: 450px;
 
-    padding: 2em;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    padding: 1.5em;
+    
     border-radius: 1em;
     border: 5px solid teal;
 
-    font: 1em;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-
+    text-align: left;
+   
     color: black;
     background-color: rgba(122, 109, 105, 0.13); 
 }
 
-ul {
-    margin: 0;
-    padding-top: 15px;
-
-    list-style: none;
-    font-size: 20px;
-}
-
-form li + li {
-    margin-top: 1em;
+legend {
+   font-size: 25px;
+   text-align: center;
 }
 
 label {
     display: inline-block;
     text-align: right;
-    width: 125px;
+    margin: 10px;
+    padding-top: 15px;
+    
+    font-size: 18px;
+}
+#mail {
+    width: 200px;
 }
 
 input, textarea { 
-    width:  250px; 
+    width:  160px; 
     height: 25px;
-    box-sizing: border-box; 
-
+    
     border: 1 px solid #999;
 } 
-
-textarea {
-    height: 5em;
-    vertical-align: top;
-    overflow: auto;
-}
 
 .button {
     display: flex;
     justify-content: center;
+    padding-top: 15px;
 }
 
 button {
@@ -124,20 +131,16 @@ button {
 }
 
 /* -- Footer -- */
+
 footer {
-    width: 100%;
-    margin-top: auto;
-    height: 2.25rem;
-
-    position: relative;
-	text-align: center;
-
     padding-top: 25px;
     padding-bottom: 25px;
-    
+    overflow: hidden;
+
 	font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
 
 	color:white;
-	background: teal
+	background: coral
 } 
