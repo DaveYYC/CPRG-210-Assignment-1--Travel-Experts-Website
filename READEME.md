@@ -1,0 +1,18 @@
+SAIT/Manpower TechCareers Cohort#4 
+
+CPRG 210 Assignment 1: 
+
+    Demonstration Website for 'Travel Experts' travel agency
+
+Author: David Hahner
+
+Submission Date: June 8, 2020
+
+Acknowledgements:
+
+    Company logo courtesy http://.vecteezy.com
+
+    Hero Section image courtesy of Lorem Picsum: https://picsum.photos/
+
+    Destination images courtesy of http://pexels.com
+

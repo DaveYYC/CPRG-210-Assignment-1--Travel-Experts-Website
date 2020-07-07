@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+* {
+    margin: 0; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    line-height: 1.2;
+    letter-spacing: 4px;
+
+    font-variant: small-caps;
+}
+
+/* -- Navigation bar / Header -- */
+
+nav {
+    display: flex;
+    flex-wrap:  wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    overflow: hidden;
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    color: white;
+    background-color: coral;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    color:white;
+}
+
+nav a:hover {
+    background-image: linear-gradient(teal, yellow);
+} 
+
+nav a:active {
+    background-image: linear-gradient(teal, lightblue);
+}
+
+/* -- Hero Section -- */
+
+header {
+    min-height: 1000px;
+
+    background-image: url(https://picsum.photos/id/16/1000/1250);
+	background-position: bottom;
+    background-size: cover;
+    
+    overflow: hidden;
+}
+
+header h1  {
+    margin-top: 40px;
+
+    font-size: 50px;
+    text-align: center;
+
+    color: white;
+}
+header p {
+    margin-top: 50px;
+
+    font-size: 60px;
+    text-align: center;
+
+    color: white;
+}
+
+/* -- Gallery Section -- */
+
+#banner_1 {
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    
+    font-size: 45px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+
+    color: white;
+    background-color: coral;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
+
+/* -- Comment Form/Contact Section -- */
+
+.container {
+    display: flex;
+	justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    overflow: hidden;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: rgba(122, 109, 105, 0.322); 
+}
+
+/* -- Comment Form -- */
+
+.comment_header {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    border: 5px solid coral;
+    border-radius: 1em; 
+}
+
+ul {
+    margin: 0;
+    padding: 20px;
+
+    list-style: none;
+    font-size: 20px;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+
+input, textarea { 
+    width: 200px;
+    box-sizing: border-box;
+    border: 1 px solid #999;
+} 
+
+textarea {
+    height: 5em;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.button {
+    margin-bottom: 5px; 
+	padding-left: 130px;
+}
+
+button {
+    padding: 5px 5px 5px 5px;
+
+    color:white;
+    background-color: coral;
+}
+
+/* -- Contact US Info -- */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    padding: 20px 0px 20px 0px;
+
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+	color:white;
+	background: teal
+}
+
+/* --Footer -- */
+
+footer {
+    text-align: center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+	font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+	color:white;
+	background: teal
+} 
+

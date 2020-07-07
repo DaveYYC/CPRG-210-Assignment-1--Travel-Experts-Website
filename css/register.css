@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: 5px;
+   
+    background-color: rgba(122, 109, 105, 0.322); 
+}
+
+/* -- Navigation bar / Header -- */
+nav {
+    display: flex;
+    flex-wrap:  wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    overflow: hidden;
+    
+    font-size: 40px;
+    text-transform: uppercase;
+
+    color: white;
+    background-color: coral;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav ul li {
+    list-style: none
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    
+    color:white;
+}
+
+nav a:hover {
+    background-image: linear-gradient(teal, yellow);
+} 
+
+nav a:active {
+    background-image: linear-gradient(teal, lightblue);
+}
+
+/* -- Registration Form -- */
+.reg_header {
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    width: 500px;
+    margin: 10px 0px 10px 0px;
+    
+    padding: 1em;
+    border-radius: 1em;
+    border: 5px solid teal;
+
+    font: 1em;
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+    background-color: rgba(122, 109, 105, 0.13); 
+}
+
+.register {
+    display:flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+form li + li {
+    margin-top: 1em;
+
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    
+}
+
+input, textarea { 
+    width: 300px;
+    height: 25px;
+
+    border: 1px solid teal;
+} 
+
+.register h5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    
+    background-color: coral;
+    color:white;
+}
+
+/* -- Footer -- */
+footer {
+    width: 100%;
+    margin-top: auto;
+    height: 2.25rem;
+
+    position: relative;
+	text-align: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+	font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+	color:white;
+	background: teal
+} 
+    
