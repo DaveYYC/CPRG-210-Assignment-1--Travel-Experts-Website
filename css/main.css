@@ -120,16 +120,16 @@ header p {
 
 /* -- Comment Form -- */
 
-.comment_header {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-
 form {
     width: 400px;
     border: 5px solid coral;
-    border-radius: 1em; 
+    border-radius: 1em;
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    padding: 20px;
 }
 
 ul {
@@ -142,11 +142,13 @@ ul {
 
 form li + li {
     margin-top: 1em;
+    
 }
 
 label {
     width: 120px;
     display: inline-block;
+
     text-align: right;
 }
 
@@ -164,11 +166,10 @@ textarea {
 
 .button {
     margin-bottom: 5px; 
-	padding-left: 130px;
 }
 
 button {
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 5px px;
 
     color:white;
     background-color: coral;

@@ -19,6 +19,7 @@ body {
 }
 
 /* -- Navigation bar / Header -- */
+
 nav {
     display: flex;
     flex-wrap:  wrap;
@@ -56,9 +57,13 @@ nav a:active {
 }
 
 /* -- Registration Form -- */
-.reg_header {
+
+legend {
+    padding: .5em;
+
     text-align: center;
     font-size: 25px;
+    
 }
 
 form {
@@ -127,6 +132,7 @@ button {
 }
 
 /* -- Footer -- */
+
 footer {
     width: 100%;
     margin-top: auto;
