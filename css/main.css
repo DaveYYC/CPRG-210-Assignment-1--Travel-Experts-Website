@@ -78,6 +78,7 @@ header {
 	background-position: bottom;
     background-size: cover;
     
+    font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
 
@@ -89,6 +90,7 @@ header h1  {
 
     color: white;
 }
+
 header p {
     margin-top: 50px;
 
@@ -121,6 +123,7 @@ header p {
     
     background-color: rgba(122, 109, 105, 0.322); 
 }
+
 .gallery img {
     margin: 2px;
 }

@@ -2,7 +2,7 @@ SAIT/Manpower TechCareers Cohort#4
 
 CPRG 210 Assignment 1: 
 
-    Demonstration Website for 'Travel Experts' travel agency
+    Demonstration Website for 'Travel Experts' Travel Agency
 
 Author: David Hahner
 
