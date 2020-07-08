@@ -46,16 +46,15 @@ nav {
 }
 
 nav ul li {
-    font-size: 20px;
-    padding-bottom: 1px;
+    padding: 10px 25px 10px 0px;
+    font-size: 16px;
+    
     list-style: none;
 }
 
 nav a {
     text-decoration: none;
-
     font-weight: bold;
-    font-size: 14px;
     
     color:white;
 }
