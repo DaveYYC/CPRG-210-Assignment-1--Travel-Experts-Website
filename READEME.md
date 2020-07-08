@@ -1,3 +1,4 @@
+
 SAIT/Manpower TechCareers Cohort#4 
 
 CPRG 210 Assignment 1: 
@@ -6,11 +7,11 @@ CPRG 210 Assignment 1:
 
 Author: David Hahner
 
-Submission Date: June 8, 2020
+Submission Date: June 9, 2020
 
 Acknowledgements:
 
-    Company logo courtesy http://.vecteezy.com
+    Company logo courtesy of http://.vecteezy.com
 
     Hero Section image courtesy of Lorem Picsum: https://picsum.photos/
 

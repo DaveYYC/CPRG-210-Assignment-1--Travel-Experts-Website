@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
-/* -- Layout Section -- */
+/* ---- Layout Section ---- */
 * {
     margin: 0;
     padding: 0px;
@@ -25,8 +25,7 @@ body {
     background-color: rgba(122, 109, 105, 0.322); 
 }
 
-/* -- Navigation Bar / Header -- */
-
+/* ---- Navigation Bar / Header ---- */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +37,7 @@ nav {
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
 
     color: white;
@@ -71,8 +70,7 @@ nav a:active {
     background-image: linear-gradient(teal, lightblue);
 }
 
-/* -- Login Form -- */
-
+/* ---- Login Form ---- */
 .login {
     height: 70vh;
 
@@ -83,11 +81,10 @@ nav a:active {
 
 form {
     width: 450px;
-
     margin-top: 100px;
     margin-bottom: 250px;
+
     padding: 1.5em;
-    
     border-radius: 1em;
     border: 5px solid teal;
 
@@ -104,10 +101,11 @@ legend {
 }
 
 label {
-    display: inline-block;
-    text-align: right;
     margin: 10px;
+    display: inline-block;
+    
     padding-top: 15px;
+    text-align: right;
     
     font-size: 18px;
 }
@@ -136,17 +134,16 @@ button {
     background-color: coral;
 }
 
-/* -- Footer -- */
-
+/* ---- Footer ---- */
 footer {
     padding-top: 25px;
     padding-bottom: 25px;
     overflow: hidden;
 
+    text-align: center;
 	font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
-
+    
 	color:white;
 	background: coral
 } 

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
+
+/*<---- Layout Section ---->*/
 * {
     margin: 0; 
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,8 +25,7 @@ body {
     font-variant: small-caps;
 }
 
-/* -- Navigation bar / Header -- */
-
+/* ---- Navigation bar / Header ---- */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -32,13 +35,15 @@ nav {
     overflow: hidden;
 
     text-align: center;
+    text-transform: uppercase;
     font-family: 'Montserrat Alternates', sans-serif;
     
-    font-size: 40px;
-    text-transform: uppercase;
-
     color: white;
     background-color: coral;
+}
+
+nav h1 {
+    font-size: 40px;
 }
 
 nav ul li {
@@ -65,8 +70,7 @@ nav a:active {
     background-image: linear-gradient(teal, lightblue);
 }
 
-/* -- Hero Section -- */
-
+/* ---- Hero Section ---- */
 header {
     min-height: 1000px;
 
@@ -96,8 +100,7 @@ header p {
     color: white;
 }
 
-/* -- Gallery Section -- */
-
+/* ---- Gallery Section ---- */
 #banner_1 {
     padding: 25px 0px 25px 0px;
     text-align: center;
@@ -124,8 +127,7 @@ header p {
     margin: 2px;
 }
 
-/* -- Comment Form -- */
-
+/* ---- Comment Form /Contact Us Section ---- */
 .container {
     display: flex;
 	justify-content: space-around;
@@ -139,8 +141,7 @@ header p {
     background-color: rgba(122, 109, 105, 0.322); 
 }
 
-/* -- Comment Form -- */
-
+/* ---- Comment Form ---- */
 form {
     margin: 5px;
     width: 400px;
@@ -152,32 +153,25 @@ form {
 }
 
 legend {
-    margin: 10px;
+    margin-top: 5px;
     font-size: 25px;
-    padding-bottom: 0px;
+  
     text-align: center;
 }
 
 label {
-    margin: 10px;
-    padding-top: 15px;
+    margin: 5px;
+    width: 130px;
+
+    padding-bottom:  5px; 
     display: inline-block;
 
     text-align: right;
     font-size: 18px;
 }
 
-label {
-    width: 120px;
-    display: inline-block;
-
-    text-align: right;
-}
-
 input, textarea { 
     width: 200px;
-
-    box-sizing: border-box;
     border: 1 px solid #999;
 } 
 
@@ -198,40 +192,39 @@ button {
     background-color: coral;
 }
 
-/* -- Contact US Info -- */
-
+/* ---- Contact US Info ---- */
 .container ul {
-    list-style: none;
-    font-size: 18px;
     padding: 10px;
+    list-style: none;
+
+    line-height: 1.5;
+    font-size: 18px;
+   
     border: 5px solid coral;
-    line-height: 2;
 }
 
 #contact {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+
     align-content: center;
-
-    text-decoration: none;
     padding: 20px 0px 20px 0px;
+    text-decoration: none;
 
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
-
+    
 	color:white;
 	background: teal
 }
 
-/* --Footer -- */
-
+/* ---- Footer ---- */
 footer {
-    text-align: center;
-    
     padding-top: 20px;
     padding-bottom: 20px;
     
+    text-align: center;
 	font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
 
