@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
     line-height: 1.2;
     letter-spacing: 5px;
-  
+    font-variant: small-caps;
+    
     background-color: rgba(122, 109, 105, 0.322); 
 }
 
@@ -32,15 +33,16 @@ nav {
     
     align-items: center;
     justify-content: space-evenly;
-    text-align: center;
     overflow: hidden;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
     
     font-size: 40px;
     text-transform: uppercase;
 
     color: white;
     background-color: coral;
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 nav ul li {
@@ -59,10 +61,14 @@ nav a {
 }
 
 nav a:hover {
-    background-image: linear-gradient(teal, yellow);
+    background-color: teal;
 } 
 
 nav a:active {
+    background-image: linear-gradient(teal, lightblue);
+}
+
+.current {
     background-image: linear-gradient(teal, lightblue);
 }
 
@@ -106,6 +112,7 @@ label {
     
     font-size: 18px;
 }
+
 #mail {
     width: 200px;
 }

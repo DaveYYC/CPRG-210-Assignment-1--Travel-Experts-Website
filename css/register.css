@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
     line-height: 1.2;
     letter-spacing: 5px;
-  
+    font-variant: small-caps;
+
     background-color: rgba(122, 109, 105, 0.322); 
 }
 
@@ -59,10 +60,14 @@ nav a {
 }
 
 nav a:hover {
-    background-image: linear-gradient(teal, yellow);
+    background-image: linear-gradient(teal, lightblue);
 } 
 
 nav a:active {
+    background-image: linear-gradient(teal, lightblue);
+}
+
+.current {
     background-image: linear-gradient(teal, lightblue);
 }
 
