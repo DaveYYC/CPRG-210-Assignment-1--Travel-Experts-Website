@@ -31,7 +31,7 @@ nav {
     text-align: center;
     overflow: hidden;
     
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
 
     color: white;
@@ -79,7 +79,7 @@ nav a:active {
 
 form {
     width: 385px;
-    margin-top: 65px;
+    margin-top: 40px;
     margin-bottom: 40px;
     padding: 15px;
     
@@ -96,7 +96,7 @@ legend {
     padding-top: 2px;
     padding-bottom: 10px;
 
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
  }
 
@@ -106,7 +106,8 @@ legend {
     align-content: center;
 
     padding: 5px;
-    font-size: 20px;
+    font-size: 18
+px;
 }
 
 input, textarea { 
