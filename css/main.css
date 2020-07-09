@@ -13,11 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.wrapper {
-    height: 100vh;
-    margin: auto;
-}
-
 body {
     line-height: 1.2;
     letter-spacing: 5px;
@@ -33,26 +28,26 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
-
+    
+    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
+   
     font-family: 'Montserrat Alternates', sans-serif;
     
     color: white;
     background-color: coral;
 }
 
-nav h1 {
-    font-size: 40px;
-}
-
 nav ul li {
-    padding: 10px 25px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
     list-style: none;
 }
 
 nav a {
-    font-size: 16px;
     text-decoration: none;
     
     color:white;
@@ -72,7 +67,7 @@ nav a:active {
 
 /* ---- Hero Section ---- */
 header {
-    min-height: 1000px;
+    min-height: 850px;
 
     background-image: url(https://picsum.photos/id/16/1000/1250);
 	background-position: bottom;

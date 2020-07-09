@@ -12,11 +12,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.wrapper {
-    height: 100vh;
-    margin: auto;
-}
-
 body {
     line-height: 1.2;
     letter-spacing: 5px;
@@ -72,7 +67,7 @@ nav a:active {
 
 /* ---- Login Form ---- */
 .login {
-    height: 70vh;
+    height: 65vh;
 
     display:flex;
     justify-content: center;
@@ -84,7 +79,7 @@ form {
     margin-top: 100px;
     margin-bottom: 250px;
 
-    padding: 1.5em;
+    padding: 1em;
     border-radius: 1em;
     border: 5px solid teal;
 
@@ -96,18 +91,18 @@ form {
 }
 
 legend {
-   font-size: 25px;
+   font-size: 20px;
    text-align: center;
 }
 
 label {
     margin: 10px;
     display: inline-block;
+    padding-top: 10px;
     
-    padding-top: 15px;
     text-align: right;
-    
     font-size: 18px;
+    
 }
 
 #mail {
@@ -121,13 +116,9 @@ input, textarea {
     border: 1 px solid #999;
 } 
 
-.button {
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-
 button {
+    margin-top: 5px;
+    margin-left: 150px;
     padding: 10px;
 
     color:white;
